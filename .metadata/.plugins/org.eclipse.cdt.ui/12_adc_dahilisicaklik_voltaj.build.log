@@ -1,0 +1,10 @@
+16:47:02 **** Build of configuration Debug for project 12_adc_dahilisicaklik_voltaj ****
+make -j12 all 
+arm-none-eabi-size  12_adc_dahilisicaklik_voltaj.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10628	     12	   1676	  12316	   301c	12_adc_dahilisicaklik_voltaj.elf
+Finished building: default.size.stdout
+ 
+
+16:47:02 Build Finished. 0 errors, 0 warnings. (took 248ms)
+

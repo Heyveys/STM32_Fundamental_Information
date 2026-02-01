@@ -1,0 +1,15 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_gpu_output Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:04_gpio_giris_uygulama Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:05_butondurumuile_led_kontrol Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06_haricikesme Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07_adc_konfigirasyonu Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:08_adc__ledkontrol Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:09_adc_degerokuma_kesmeile Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:10_adc_voltaj_okuma Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:11_adc_voltaj_okuma Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:12_adc_dahilisicaklik_voltaj,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:12_adc_dahilis\u0131cakl\u0131k_voltaj Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:13 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:14_timer_led_kontrol Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:15_timer_intrerrupt Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:16_timer_saat_uygulamasi Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:16_timer_saatuygulamas\u0131 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:17_systick_timer Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:18_dma_adc Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:22_i2c_ds3231 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:23_SPI_LIS302DL Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_gpu_output\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:03_gpu_output\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:05_butondurumuile_led_kontrol\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:06_haricikesme\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:07_adc_konfigirasyonu\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:08_adc__ledkontrol\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:10_adc_voltaj_okuma\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:14_timer_led_kontrol\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:20_uart\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:21_uart_kesme\ Debug/activeLaunchMode=debug

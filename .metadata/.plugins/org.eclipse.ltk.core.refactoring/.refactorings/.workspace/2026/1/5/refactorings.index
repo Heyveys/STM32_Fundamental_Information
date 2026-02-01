@@ -1,0 +1,11 @@
+1769433295109	Rename resource '10_adc_voltaj_okuma'
+1769433328827	Delete resource '11_adc_voltaj_okuma/10_adc_voltaj_okuma Debug.launch'
+1769433340284	Delete 3 resources
+1769439530890	Delete resource '12_adc_dahilisıcaklık_voltaj/11_adc_voltaj_okuma Debug.launch'
+1769439541338	Delete 3 resources
+1769440684898	Rename resource '12_adc_dahilisıcaklık_voltaj'
+1769518934870	Delete resource '16_timer_saatuygulaması/15_timer_intrerrupt Debug.launch'
+1769518938810	Delete 3 resources
+1769520047249	Rename resource '16_timer_saatuygulaması'
+1769526050715	Delete resource '19_dma_adc_interrupt/18_dma_adc Debug.launch'
+1769526053958	Delete 3 resources

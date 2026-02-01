@@ -1,0 +1,10 @@
+16:46:58 **** Build of configuration Debug for project 05_butondurumuile_led_kontrol ****
+make -j12 all 
+arm-none-eabi-size  05_butondurumuile_led_kontrol.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6044	     12	   1572	   7628	   1dcc	05_butondurumuile_led_kontrol.elf
+Finished building: default.size.stdout
+ 
+
+16:46:58 Build Finished. 0 errors, 0 warnings. (took 252ms)
+

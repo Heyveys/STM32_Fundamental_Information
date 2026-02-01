@@ -1,0 +1,10 @@
+16:46:59 **** Build of configuration Debug for project 08_adc__ledkontrol ****
+make -j12 all 
+arm-none-eabi-size  08_adc__ledkontrol.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8324	     12	   1644	   9980	   26fc	08_adc__ledkontrol.elf
+Finished building: default.size.stdout
+ 
+
+16:46:59 Build Finished. 0 errors, 0 warnings. (took 242ms)
+

@@ -1,0 +1,10 @@
+16:46:57 **** Build of configuration Debug for project 03_gpu_output ****
+make -j12 all 
+arm-none-eabi-size  03_gpu_output.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5892	     12	   1572	   7476	   1d34	03_gpu_output.elf
+Finished building: default.size.stdout
+ 
+
+16:46:57 Build Finished. 0 errors, 0 warnings. (took 295ms)
+

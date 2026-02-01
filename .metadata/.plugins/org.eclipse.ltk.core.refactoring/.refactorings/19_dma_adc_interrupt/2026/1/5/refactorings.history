@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;19_dma_adc_interrupt/18_dma_adc.ioc&apos; to &apos;19_dma_adc_interrupt.ioc&apos;" description="Rename resource &apos;18_dma_adc.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="18_dma_adc.ioc" name="19_dma_adc_interrupt.ioc" stamp="1769526046263" updateReferences="true"/>
+</session>

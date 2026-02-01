@@ -1,0 +1,30 @@
+17:09:20 **** Incremental Build of configuration Debug for project 20_uart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:113:43: warning: pointer targets in passing argument 2 of 'HAL_UART_Receive' differ in signedness [-Wpointer-sign]
+  113 |                 HAL_UART_Receive(&huart2, receivedata, 5, HAL_MAX_DELAY);
+      |                                           ^~~~~~~~~~~
+      |                                           |
+      |                                           char *
+In file included from ../Core/Inc/stm32f4xx_hal_conf.h:411,
+                 from ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h:746:72: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  746 | HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+      |                                                               ~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "20_uart.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\veyre\STM32CubeIDE\workspace_1.15.1\20_uart\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="20_uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 20_uart.elf
+ 
+arm-none-eabi-size  20_uart.elf 
+arm-none-eabi-objdump -h -S 20_uart.elf  > "20_uart.list"
+   text	   data	    bss	    dec	    hex	filename
+   8012	     12	   1652	   9676	   25cc	20_uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: 20_uart.list
+ 
+
+17:09:21 Build Finished. 0 errors, 1 warnings. (took 812ms)
+

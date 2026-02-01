@@ -1,0 +1,10 @@
+16:18:50 **** Incremental Build of configuration Debug for project 16_timer_saatuygulamas� ****
+make -j12 all 
+arm-none-eabi-size  16_timer_saatuygulaması.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7792	     12	   1644	   9448	   24e8	16_timer_saatuygulaması.elf
+Finished building: default.size.stdout
+ 
+
+16:18:51 Build Finished. 0 errors, 0 warnings. (took 191ms)
+

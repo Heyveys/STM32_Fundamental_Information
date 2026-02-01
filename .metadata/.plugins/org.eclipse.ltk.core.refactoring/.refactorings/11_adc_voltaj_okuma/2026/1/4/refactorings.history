@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;10_adc_voltaj_okuma/07_adc_konfigirasyonu.ioc&apos; to &apos;10_adc_voltaj_okuma.ioc&apos;" description="Rename resource &apos;07_adc_konfigirasyonu.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="07_adc_konfigirasyonu.ioc" name="10_adc_voltaj_okuma.ioc" stamp="1769266436844" updateReferences="true"/>
+</session>

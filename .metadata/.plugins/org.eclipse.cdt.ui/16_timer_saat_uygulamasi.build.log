@@ -1,0 +1,10 @@
+16:47:03 **** Build of configuration Debug for project 16_timer_saat_uygulamasi ****
+make -j12 all 
+arm-none-eabi-size  16_timer_saat_uygulamasi.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7792	     12	   1644	   9448	   24e8	16_timer_saat_uygulamasi.elf
+Finished building: default.size.stdout
+ 
+
+16:47:04 Build Finished. 0 errors, 0 warnings. (took 240ms)
+

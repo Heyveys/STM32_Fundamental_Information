@@ -1,0 +1,10 @@
+16:47:01 **** Build of configuration Debug for project 11_adc_voltaj_okuma ****
+make -j12 all 
+arm-none-eabi-size  11_adc_voltaj_okuma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10552	     12	   1660	  12224	   2fc0	11_adc_voltaj_okuma.elf
+Finished building: default.size.stdout
+ 
+
+16:47:02 Build Finished. 0 errors, 0 warnings. (took 295ms)
+

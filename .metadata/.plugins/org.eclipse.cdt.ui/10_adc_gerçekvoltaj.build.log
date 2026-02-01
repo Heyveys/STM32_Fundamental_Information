@@ -1,0 +1,16 @@
+16:47:01 **** Build of configuration Debug for project 10_adc_ger�ekvoltaj ****
+make -j12 all 
+arm-none-eabi-gcc -o "10_adc_gerçekvoltaj.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\veyre\STM32CubeIDE\workspace_1.15.1\10_adc_gerçekvoltaj\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="10_adc_gerçekvoltaj.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: 10_adc_gerçekvoltaj.elf
+ 
+arm-none-eabi-size  10_adc_gerçekvoltaj.elf 
+arm-none-eabi-objdump -h -S 10_adc_gerçekvoltaj.elf  > "10_adc_gerçekvoltaj.list"
+   text	   data	    bss	    dec	    hex	filename
+  10356	     12	   1652	  12020	   2ef4	10_adc_gerçekvoltaj.elf
+Finished building: default.size.stdout
+ 
+Finished building: 10_adc_gerçekvoltaj.list
+ 
+
+16:47:01 Build Finished. 0 errors, 0 warnings. (took 851ms)
+
