@@ -1,0 +1,10 @@
+20:00:35 **** Incremental Build of configuration Debug for project 25_Random_Number ****
+make -j12 all 
+arm-none-eabi-size  25_Random_Number.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5776	     12	   1604	   7392	   1ce0	25_Random_Number.elf
+Finished building: default.size.stdout
+ 
+
+20:00:35 Build Finished. 0 errors, 0 warnings. (took 188ms)
+
